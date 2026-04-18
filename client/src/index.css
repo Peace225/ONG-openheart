@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Configuration de ton thème sur-mesure pour Open Heart */
+@theme {
+  /* Tes couleurs de marque */
+  --color-brand-green: #2e7d32;
+  --color-brand-dark: #1a1a1a;
+
+  /* La nouvelle animation de défilement (40 secondes, linéaire, à l'infini) */
+  --animate-scroll: scroll 40s linear infinite;
+}
+
+/* Définition du mouvement de l'animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* On décale de la moitié exacte du conteneur (-50%) 
+       et on soustrait l'espacement entre les cartes (gap-8 = 2rem) */
+    transform: translateX(calc(-50% - 1rem));
+  }
+}
