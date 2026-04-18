@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-// Remplacement des icônes de réseaux sociaux par des icônes génériques
 import { Mail, Phone, MapPin, ArrowRight, Globe, MessageCircle, Camera, Share2 } from 'lucide-react';
 
 export default function Footer() {
@@ -14,23 +13,20 @@ export default function Footer() {
           
           {/* Colonne 1 : Marque et Mission */}
           <div className="flex flex-col space-y-6">
-            <Link to="/" className="flex items-center gap-3 group inline-block">
-              <div className="w-12 h-12 bg-brand-green rounded-sm flex items-center justify-center text-white font-black text-2xl">
-                OH
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl font-black tracking-tighter uppercase leading-none">
-                  Open Heart
-                </span>
-                <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-brand-green">
-                  Green Vision
-                </span>
-              </div>
+            {/* LOGO IMAGE LOCALE */}
+            <Link to="/" className="inline-block group">
+              <img 
+                src="/images/logo.png" 
+                alt="Logo Open Heart & Green Vision" 
+                className="h-20 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+              />
             </Link>
+
             <p className="text-gray-400 text-sm leading-relaxed pr-4">
               Engagés pour le bien-être socio-économique et la lutte active contre le réchauffement climatique. Ensemble, bâtissons un avenir durable.
             </p>
-            {/* Réseaux Sociaux (Icônes génériques temporaires) */}
+
+            {/* Réseaux Sociaux */}
             <div className="flex space-x-4 pt-4">
               {[Globe, MessageCircle, Camera, Share2].map((Icon, index) => (
                 <a 
@@ -105,7 +101,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-4">
                 <Phone className="text-brand-green flex-shrink-0" size={20} />
-                <a href="tel:+2250000000000" className="text-gray-400 hover:text-brand-green transition-colors text-sm font-medium">
+                <a href="tel:+2250555582274" className="text-gray-400 hover:text-brand-green transition-colors text-sm font-medium">
                   +225 05 55 58 22 74
                 </a>
               </li>

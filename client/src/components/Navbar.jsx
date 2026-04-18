@@ -50,7 +50,6 @@ export default function Navbar() {
     setActiveDropdown(activeDropdown === name ? null : name);
   };
 
-  // Style commun pour les liens avec ombre portée quand transparent
   const linkStyle = `text-[13px] font-bold uppercase tracking-widest transition-all duration-300 flex items-center gap-1
     ${isScrolled 
       ? 'text-gray-300 hover:text-brand-green' 
@@ -60,28 +59,21 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-700 ${
       isScrolled 
-        ? 'bg-brand-dark/95 backdrop-blur-md shadow-2xl py-3' 
-        : 'bg-gradient-to-b from-black/70 via-black/20 to-transparent py-6' 
-        /* Ajout du dégradé (scrim) pour la lisibilité */
+        ? 'bg-brand-dark/95 backdrop-blur-md shadow-2xl py-2' 
+        : 'bg-gradient-to-b from-black/70 via-black/20 to-transparent py-5' 
     }`}>
       <div className="max-w-[1440px] mx-auto px-8 lg:px-12">
         <div className="flex items-center justify-between">
           
-          {/* Logo Section */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 bg-brand-green rounded-sm flex items-center justify-center text-white font-black text-2xl rotate-3 group-hover:rotate-0 transition-transform duration-500">
-              OH
-            </div>
-            <div className="flex flex-col">
-              <span className={`text-xl font-black tracking-tighter uppercase leading-none transition-colors duration-500 ${
-                isScrolled ? 'text-white' : 'text-white drop-shadow-md'
-              }`}>
-                Open Heart
-              </span>
-              <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-brand-green drop-shadow-sm">
-                Green Vision
-              </span>
-            </div>
+          {/* SECTION LOGO (IMAGE LOCALE) */}
+          <Link to="/" className="flex items-center group">
+            <img 
+              src="/images/logo.png" 
+              alt="Logo Open Heart & Green Vision" 
+              className={`transition-all duration-500 object-contain ${
+                isScrolled ? 'h-12 md:h-14' : 'h-16 md:h-20'
+              }`}
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -105,7 +97,6 @@ export default function Navbar() {
                   </Link>
                 )}
 
-                {/* Dropdown Desktop */}
                 {link.dropdown && (
                   <div 
                     onMouseLeave={() => setActiveDropdown(null)}
@@ -146,7 +137,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu - Reste inchangé car il a son propre fond sombre */}
+      {/* Mobile Menu */}
       <div className={`xl:hidden fixed inset-0 top-[80px] bg-brand-dark overflow-y-auto transition-transform duration-500 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="p-8 flex flex-col space-y-6">
           {navLinks.map((link) => (
