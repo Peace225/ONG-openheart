@@ -22,17 +22,17 @@ export default function Home() {
 
       {/* 3. Les piliers d'intervention concrets */}
       <ActionAreas />
-
+      <JournalSection />
       {/* 5. Section Devenir Bénévole */}
-      <VolunteerSection />
+      
 
       {/* 6. Les Chiffres Clés / Nos réussites */}
       <ImpactSection />
 
       
       {/* 8. Notre Journal de bord (Actualités) */}
-      <JournalSection />
       
+      <VolunteerSection />
       {/* 7. Les Témoignages */}
       <TestimonialSection />
 
