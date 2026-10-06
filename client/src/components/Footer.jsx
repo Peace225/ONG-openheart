@@ -107,8 +107,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-4">
                 <Mail className="text-brand-green flex-shrink-0" size={20} />
-                <a href="mailto:contact@openheart-greenvision.org" className="text-gray-400 hover:text-brand-green transition-colors text-sm font-medium">
-                  contact@openheart-greenvision.org
+                <a href="mailto:info@openheart-greenvision.org" className="text-gray-400 hover:text-brand-green transition-colors text-sm font-medium">
+                  info@openheart-greenvision.org
                 </a>
               </li>
             </ul>
