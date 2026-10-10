@@ -10,11 +10,12 @@ export default function AboutSection() {
     { label: "Forêts protégées", value: "77+", icon: TreePine },
   ];
 
-  const points = [
-    "Défense des droits humains et des personnes vulnérables",
-    "Accès à l'éducation, à la santé et à l'eau potable",
-    "Préservation de la biodiversité et des forêts",
-  ];
+ const points = [
+  "Défense des droits humains et des personnes vulnérables",
+  "Accès à l'éducation, à la santé et à l'eau potable",
+  "Préservation de la biodiversité et des forêts",
+  "Promotion, valorisation et préservation de l'art, de la culture et des valeurs ancestrales",
+];
 
   return (
     <section className="py-24 px-6 lg:px-12 bg-white overflow-hidden">

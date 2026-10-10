@@ -8,6 +8,7 @@ import TestimonialSection from '../components/TestimonialSection';
 import JournalSection from '../components/JournalSection';
 import Button from '../components/ui/Button';
 import { Link } from 'react-router-dom';
+import ProjectsRoadmapSection from '../components/ProjectsRoadmapSection';
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       <ActionAreas />
       <JournalSection />
       {/* 5. Section Devenir Bénévole */}
-      
+         <ProjectsRoadmapSection />
 
       {/* 6. Les Chiffres Clés / Nos réussites */}
       <ImpactSection />
