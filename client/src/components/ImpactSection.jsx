@@ -1,34 +1,28 @@
+import { useTranslation } from 'react-i18next';
 import { TreePine, Users, FolderHeart, Globe2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const impacts = [
+// On ne conserve que les identifiants, les icônes et les chiffres
+const impactsData = [
   {
-    id: 1,
+    id: "trees",
     icon: TreePine,
     number: "50 000+",
-    label: "Arbres plantés",
-    description: "Dans le cadre de notre lutte pour la reforestation."
   },
   {
-    id: 2,
+    id: "lives",
     icon: Users,
     number: "15 000+",
-    label: "Vies impactées",
-    description: "Personnes aidées via nos programmes socio-économiques."
   },
   {
-    id: 3,
+    id: "projects",
     icon: FolderHeart,
     number: "120+",
-    label: "Projets réalisés",
-    description: "Des actions concrètes menées à terme sur le terrain."
   },
   {
-    id: 4,
+    id: "volunteers",
     icon: Globe2,
     number: "300+",
-    label: "Bénévoles actifs",
-    description: "Une communauté dévouée à travers la Côte d'Ivoire."
   }
 ];
 
@@ -56,6 +50,8 @@ const cardVariants = {
 };
 
 export default function ImpactSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="relative py-32 lg:py-44 bg-[#0B0F0E] overflow-hidden">
       
@@ -82,12 +78,12 @@ export default function ImpactSection() {
           className="text-center max-w-3xl mx-auto mb-20 lg:mb-28"
         >
           <span className="inline-block text-green-400 font-bold tracking-[0.25em] uppercase text-xs sm:text-sm mb-4 px-4 py-1.5 bg-white/5 backdrop-blur-md rounded-full border border-white/10">
-            Notre Impact
+            {t('impactSection.badge')}
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-7xl font-black text-white tracking-tight leading-[1.05]">
-            Des chiffres qui <br />
+            {t('impactSection.title.part1')} <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-emerald-400 to-teal-300">
-              changent le monde
+              {t('impactSection.title.part2')}
             </span>
           </h2>
         </motion.div>
@@ -100,7 +96,7 @@ export default function ImpactSection() {
           viewport={{ once: true, margin: "-50px" }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
         >
-          {impacts.map((item) => (
+          {impactsData.map((item) => (
             <motion.div 
               variants={cardVariants}
               key={item.id} 
@@ -124,12 +120,12 @@ export default function ImpactSection() {
 
               {/* Label */}
               <h4 className="text-base font-bold text-gray-200 uppercase tracking-wider mb-3 transition-colors duration-300 group-hover:text-green-400">
-                {item.label}
+                {t(`impactSection.impacts.${item.id}.label`)}
               </h4>
 
               {/* Description épurée */}
               <p className="text-gray-400 text-sm font-medium leading-relaxed transition-colors duration-300 group-hover:text-gray-300">
-                {item.description}
+                {t(`impactSection.impacts.${item.id}.description`)}
               </p>
             </motion.div>
           ))}

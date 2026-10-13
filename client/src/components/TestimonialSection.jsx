@@ -1,39 +1,18 @@
+import { useTranslation } from 'react-i18next';
 import { Quote } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const testimonials = [
-  {
-    id: 1,
-    content: "L'approche d'Open Heart est unique. Ils ne se contentent pas de donner, ils accompagnent les communautés vers une véritable autonomie. J'ai vu des vies changer en quelques mois.",
-    author: "Aminata Diallo",
-    role: "Bénévole terrain",
-    image: "/images/testi1.jpg" 
-  },
-  {
-    id: 2,
-    content: "Grâce au programme de reboisement, notre village a pu restaurer une grande partie de sa forêt sacrée. C'est un héritage inestimable que nous laissons à nos enfants.",
-    author: "Kouassi Jean-Marc",
-    role: "Chef de projet communautaire",
-    image: "/images/testi2.jpg" 
-  },
-  {
-    id: 3,
-    content: "Soutenir Green Vision, c'est investir dans l'avenir de la Côte d'Ivoire. Leur transparence et leur efficacité sur le terrain sont exemplaires. Un partenaire de confiance.",
-    author: "Sarah Martin",
-    role: "Donatrice et Partenaire",
-    image: "/images/testi3.jpg" 
-  },
-  {
-    id: 4,
-    content: "L'impact de leurs campagnes de sensibilisation dans les écoles est remarquable. Les enfants deviennent de véritables ambassadeurs de l'écologie à la maison.",
-    author: "M. Traoré",
-    role: "Directeur d'école",
-    image: "/images/testi4.jpg" 
-  }
+// On garde uniquement les identifiants et les images
+const testimonialsData = [
+  { id: 1, image: "/images/testi1.jpg" },
+  { id: 2, image: "/images/testi2.jpg" },
+  { id: 3, image: "/images/testi3.jpg" },
+  { id: 4, image: "/images/testi4.jpg" }
 ];
 
 export default function TestimonialSection() {
-  const duplicatedTestimonials = [...testimonials, ...testimonials];
+  const { t } = useTranslation();
+  const duplicatedTestimonials = [...testimonialsData, ...testimonialsData];
 
   return (
     <section className="relative py-28 lg:py-40 bg-[#FAFAFA] overflow-hidden">
@@ -50,12 +29,12 @@ export default function TestimonialSection() {
           className="text-center max-w-3xl mx-auto"
         >
           <span className="inline-block text-green-600 font-bold tracking-[0.25em] uppercase text-xs sm:text-sm mb-4 px-3.5 py-1.5 bg-green-50 rounded-full border border-green-100">
-            Témoignages
+            {t('testimonialSection.badge')}
           </span>
           <h2 className="text-4xl sm:text-5xl lg:text-7xl font-black text-gray-900 tracking-tight leading-[1.05]">
-            La voix de ceux qui <br />
+            {t('testimonialSection.title.part1')} <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-500">
-              vivent le changement
+              {t('testimonialSection.title.part2')}
             </span>
           </h2>
         </motion.div>
@@ -77,23 +56,23 @@ export default function TestimonialSection() {
               
               <div className="relative z-10 flex flex-col h-full">
                 <p className="text-gray-600 text-base sm:text-lg font-normal leading-relaxed mb-10 flex-grow">
-                  "{testimonial.content}"
+                  "{t(`testimonialSection.testimonials.${testimonial.id}.content`)}"
                 </p>
 
                 <div className="flex items-center gap-4 mt-auto pt-6 border-t border-gray-100">
                   <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-green-500/20 flex-shrink-0 shadow-sm">
                     <img 
                       src={testimonial.image} 
-                      alt={testimonial.author} 
+                      alt={t(`testimonialSection.testimonials.${testimonial.id}.author`)} 
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div>
                     <h4 className="text-gray-900 font-bold tracking-tight text-sm sm:text-base">
-                      {testimonial.author}
+                      {t(`testimonialSection.testimonials.${testimonial.id}.author`)}
                     </h4>
                     <p className="text-green-600 font-semibold text-xs uppercase tracking-wider mt-0.5">
-                      {testimonial.role}
+                      {t(`testimonialSection.testimonials.${testimonial.id}.role`)}
                     </p>
                   </div>
                 </div>

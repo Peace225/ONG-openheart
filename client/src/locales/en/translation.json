@@ -1,0 +1,690 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "team": "Our Team",
+    "volunteering": "Volunteering & Partnerships",
+    "members": "Our Members",
+    "events": "Events",
+    "activities": "Activities",
+    "welfare": "Socio-economic Well-being Initiative",
+    "ecology": "Fight Against Global Warming",
+    "projects": "Our Projects",
+    "galleries": "Galleries",
+    "news": "News",
+    "contact": "Contact",
+    "donate": "DONATE",
+    "engage": "Get Involved Now"
+  },
+  "journal": {
+    "badge": "News & Stories",
+    "title": {
+      "part1": "Our",
+      "part2": "Logbook"
+    },
+    "viewAll": "View all articles",
+    "readArticle": "Read article",
+    "close": "Close",
+    "articles": {
+      "article1": {
+        "category": "Solidarity",
+        "date": "April 15, 2024",
+        "title": "Cash donation to several facilities for disabled people",
+        "excerpt": "Official handover of financial donations and support to several facilities dedicated to the care of people with disabilities.",
+        "content": "As part of our commitment to social inclusion and support for vulnerable populations, we have made an official handover of funds to three major reception centers. This financial assistance will make it possible to modernize their orthopedic equipment, ensure the renewal of educational materials, and finance the medical and assistance costs of the most destitute residents."
+      },
+      "article2": {
+        "category": "Solidarity",
+        "date": "April 02, 2023",
+        "title": "In-kind and cash donations to nursing women",
+        "excerpt": "Distribution of food, basic necessity kits, and financial support for several nursing mothers and their infants.",
+        "content": "This solidarity campaign brought together volunteers and health professionals around single mothers and families in precarious situations. Over 120 kits consisting of infant hygiene products, baby formulas, diapers, basic food items, and direct aid envelopes were distributed."
+      },
+      "article3": {
+        "category": "Event",
+        "date": "March 28, 2026",
+        "title": "A look back at our big climate march in Abidjan",
+        "excerpt": "Hundreds of citizens marched alongside us to raise awareness among decision-makers about the urban climate emergency.",
+        "content": "A historic mobilization took place in the main arteries of the metropolis. Students, associative collectives, and families marched peacefully to carry a strong advocacy: acceleration of urban greening, better management of plastic waste sorting, and protection of lagoon banks."
+      }
+    }
+  },
+  "roadmapSection": {
+    "badge": "Roadmap & Achievements",
+    "title": {
+      "main": "Our Major Projects",
+      "highlight": "Short & Long term"
+    },
+    "tabs": {
+      "all": "All",
+      "short": "Short term",
+      "long": "Long term"
+    },
+    "card": {
+      "readMore": "Read details & Support"
+    },
+    "banner": {
+      "title": "Contribute to one of these projects",
+      "description": "Institutional partnerships, material contributions, medical skills, or direct donations: every bit of support accelerates our delivery schedule.",
+      "partnerBtn": "Become a partner",
+      "donateBtn": "Make a donation"
+    },
+    "modal": {
+      "closeAria": "Close the window",
+      "impact": "Target impact:",
+      "achieved": "% achieved",
+      "presentation": "Project presentation",
+      "close": "Close",
+      "partnerBtn": "Become a partner",
+      "supportBtn": "Support this project"
+    },
+    "projects": {
+      "project1": {
+        "category": "Education & Solidarity",
+        "title": "Distribution of school kits to destitute families",
+        "deadline": "Back to school 2026 - 2027",
+        "status": "Collection & Logistics",
+        "target": "1,500 students equipped",
+        "description": "Complete provision of bags, notebooks, pens, and educational manuals to relieve the financial burden of vulnerable parents and ensure the schooling of every child."
+      },
+      "project2": {
+        "category": "Public Health",
+        "title": "Screening and prevention campaigns (Diabetes, Hypertension, Cancer, etc.)",
+        "deadline": "Ongoing campaigns (2026 - 2027)",
+        "status": "Active medical caravans",
+        "target": "+10,000 people screened",
+        "description": "Deployment of mobile medical caravans crossing Ivorian towns and villages to offer free blood sugar tests, blood pressure checks, early screenings, and dietary advice."
+      },
+      "project3": {
+        "category": "Environment & Climate",
+        "title": "Reforestation campaign of several hectares",
+        "deadline": "Q2 2027",
+        "status": "Nursery & Soil preparation",
+        "target": "50 hectares reforested",
+        "description": "Restoration of degraded ecosystems through community planting of shade trees, local forest species, and fruit trees, combined with biodiversity protection workshops."
+      },
+      "project4": {
+        "category": "Living Environment & Family",
+        "title": "Development of play and leisure areas for children and adults",
+        "deadline": "End of 2027",
+        "status": "Planning & Securing",
+        "target": "3 developed areas",
+        "description": "Creation of secure relaxation areas including playful and motor skills modules for toddlers, shaded benches, and outdoor intergenerational socialization zones."
+      },
+      "project5": {
+        "category": "Educational Infrastructure",
+        "title": "Construction of a 6-classroom primary school",
+        "deadline": "Horizon 2027 - 2028",
+        "status": "Land acquisition & Plans",
+        "target": "300 children enrolled/year",
+        "description": "Construction of an eco-designed school with 6 classrooms, an administrative block, separate hygienic latrines, and a canteen powered by solar photovoltaic panels."
+      },
+      "project6": {
+        "category": "Rural Health",
+        "title": "Construction of health centers in rural areas",
+        "deadline": "Horizon 2028",
+        "status": "Technical studies & Partnerships",
+        "target": "15,000 villagers covered",
+        "description": "Creation of local dispensaries and rural maternities to ensure the management of obstetric emergencies, infant vaccination, and reduce medical evacuation times."
+      },
+      "project7": {
+        "category": "Village Water Supply",
+        "title": "Construction of a drinking water tower",
+        "deadline": "Horizon 2028 - 2029",
+        "status": "Hydrogeological study",
+        "target": "5,000 inhabitants supplied",
+        "description": "Deep water drilling coupled with an elevated tank and a network of public solar water fountains, to eradicate waterborne diseases and facilitate women's daily lives."
+      },
+      "project8": {
+        "category": "Sport & Youth",
+        "title": "Sports infrastructure in peri-urban villages",
+        "deadline": "Horizon 2029",
+        "status": "Site identification",
+        "target": "2 multisport complexes",
+        "description": "Development of multisport platforms (7-a-side football, basketball, handball) equipped with locker rooms to encourage sports practice, strengthen social cohesion, and detect young talents."
+      },
+      "project9": {
+        "category": "Digital Inclusion",
+        "title": "Multifunctional community digital center",
+        "deadline": "Vision 2029 - 2030",
+        "status": "Technical design & Equipment",
+        "target": "+2,500 youths trained/year",
+        "description": "Technological third place including a park of fiber-connected computers, a coworking space, and certifying training in coding, office automation, and online administrative procedures."
+      }
+    }
+  },
+  "home": {
+    "cta": {
+      "titlePart1": "There is no planet B.",
+      "titlePart2": "Get involved today.",
+      "description": "Whether it's your time, your expertise, or a financial contribution, your support drives our action.",
+      "volunteerBtn": "Become a Volunteer",
+      "donateBtn": "Donate"
+    }
+  },
+  "hero": {
+    "slides": {
+      "slide1": {
+        "title": "Act for our planet",
+        "subtitle": "Join our active fight against global warming and let's protect our ecosystem.",
+        "cta1": "Our Actions",
+        "cta2": "Donate"
+      },
+      "slide2": {
+        "title": "Socio-economic well-being",
+        "subtitle": "Together, let's build a sustainable and inclusive future for the most vulnerable communities.",
+        "cta1": "Discover projects",
+        "cta2": "Get involved"
+      },
+      "slide3": {
+        "title": "Become the change",
+        "subtitle": "Every action counts. Commit as a volunteer and bring our green vision to life.",
+        "cta1": "Join the team",
+        "cta2": "Contact us"
+      },
+      "slide4": {
+        "title": "Difficult access to drinking water",
+        "subtitle": "Clean water is a vital need. Let's mobilize to install boreholes and ensure safe water for those who lack it.",
+        "cta1": "Water Projects",
+        "cta2": "Donate"
+      },
+      "slide5": {
+        "title": "The suffering of women in rural areas",
+        "subtitle": "Faced with chores, isolation, and precariousness, let's act to support and ease the daily lives of women in our rural areas.",
+        "cta1": "Support Women",
+        "cta2": "Get involved"
+      },
+      "slide6": {
+        "title": "The suffering of women in rural areas",
+        "subtitle": "Faced with heavy chores, isolation, and precariousness, let's act to ease and transform the daily lives of women in our rural areas.",
+        "cta1": "Support Women",
+        "cta2": "Get involved"
+      },
+      "slide7": {
+        "title": "The suffering of women in rural areas",
+        "subtitle": "Faced with heavy chores, isolation, and precariousness, let's act to ease and transform the daily lives of women in our rural areas.",
+        "cta1": "Emergency Aid",
+        "cta2": "Support us"
+      },
+      "slide8": {
+        "title": "The suffering of women in rural areas",
+        "subtitle": "Faced with heavy chores, isolation, and precariousness, let's act to ease and transform the daily lives of women in our rural areas.",
+        "cta1": "Plant a tree",
+        "cta2": "Join us"
+      },
+      "slide9": {
+        "title": "In-kind and cash donations to nursing women",
+        "subtitle": "Let's provide direct material, food, and financial aid to support the health of young mothers and their newborns.",
+        "cta1": "Donate",
+        "cta2": "Our Actions"
+      },
+      "slide10": {
+        "title": "Poverty Alert",
+        "subtitle": "Faced with the extreme precariousness striking so many families, let's join forces to bring emergency aid and restore hope.",
+        "cta1": "Act now",
+        "cta2": "Donate"
+      },
+      "slide11": {
+        "title": "Traditional ways of accessing food",
+        "subtitle": "Let's preserve ancestral farming practices and support local livelihood methods in the face of food challenges.",
+        "cta1": "Discover",
+        "cta2": "Support us"
+      },
+      "slide12": {
+        "title": "Traditional ways of accessing food",
+        "subtitle": "Thanks to your commitment and donations, every action sustainably transforms daily life.",
+        "cta1": "Our Achievements",
+        "cta2": "Donate"
+      },
+      "slide13": {
+        "title": "Cash donations to facilities for disabled people",
+        "subtitle": "Let's financially support specialized centers to improve care, accessibility, and dignity for people with disabilities.",
+        "cta1": "Donate",
+        "cta2": "Our Actions"
+      },
+      "slide14": {
+        "title": "Precarious life and need for help",
+        "subtitle": "Faced with difficult living conditions and extreme destitution, let's provide essential support and restore dignity to those who need it most.",
+        "cta1": "Act now",
+        "cta2": "Donate"
+      },
+      "slide15": {
+        "title": "Fight against plastic pollution",
+        "subtitle": "Let's clean our living spaces, eliminate plastic waste, and raise awareness among communities to preserve our environment.",
+        "cta1": "Our Collections",
+        "cta2": "Become a Volunteer"
+      }
+    }
+  },
+  "singularity": {
+    "badge": "Our Singularity",
+    "title": {
+      "part1": "A ",
+      "highlight": "human and comprehensive",
+      "part2": " approach for real impact"
+    },
+    "learnMore": "Learn more",
+    "features": {
+      "multisectorial": {
+        "title": "A multi-sectoral action",
+        "description": "We intervene in many essential fields: education, health, human rights, access to drinking water, food security, women's rights, children's rights, and support for vulnerable people."
+      },
+      "environmental": {
+        "title": "An environmental commitment",
+        "description": "Our fight against climate change revolves around forest conservation, biodiversity preservation, and the promotion of sustainable ecosystems in Côte d'Ivoire."
+      },
+      "concrete": {
+        "title": "Concrete field actions",
+        "description": "We work hand in hand with citizens, governments, partner NGOs, and businesses to build sustainable solutions adapted to local realities together."
+      }
+    }
+  },
+  "aboutSection": {
+    "badge": "WHO ARE WE?",
+    "title": {
+      "part1": "OPEN HEART & GREEN VISION,",
+      "highlight": "an engine of change",
+      "part2": "in Côte d'Ivoire"
+    },
+    "description1": "Based in Abidjan, OPEN HEART & GREEN VISION is a non-governmental organization acting for the socio-economic, cultural, and environmental well-being of the Ivorian population.",
+    "description2": "With an inclusive approach, we implement concrete initiatives to guarantee access to fundamental rights, promote social justice, and actively fight against global warming.",
+    "stats": {
+      "volunteers": "Committed Volunteers",
+      "beneficiaries": "Beneficiaries",
+      "campaigns": "Campaigns",
+      "forests": "Protected Forests"
+    },
+    "points": {
+      "point1": "Defense of human rights and vulnerable people",
+      "point2": "Access to education, health, and drinking water",
+      "point3": "Preservation of biodiversity and forests",
+      "point4": "Promotion, enhancement, and preservation of art, culture, and ancestral values"
+    },
+    "button": "Meet our team"
+  },
+  "actionAreas": {
+    "badge": "Areas of Intervention",
+    "title": {
+      "part1": "Our actions for",
+      "highlight": "change."
+    },
+    "subtitle": "We deploy innovative and sustainable solutions to address the major challenges of our time.",
+    "learnMore": "Learn more",
+    "actions": {
+      "welfare": {
+        "title": "Socio-economic well-being initiatives",
+        "description": "Promoting education, health, and the empowerment of women and children for sustainable and equitable development.",
+        "stats": "15+ Active projects"
+      },
+      "ecology": {
+        "title": "Fight against global warming",
+        "description": "Preserving biodiversity and our forests while raising awareness among the population, to build a greener Côte d'Ivoire.",
+        "stats": "50k Trees planted"
+      }
+    },
+    "reassurance": {
+      "textPart1": "More than",
+      "highlight": "250 volunteers",
+      "textPart2": "already committed alongside us"
+    },
+    "joinUsBtn": "Join us"
+  },
+  "impactSection": {
+    "badge": "Our Impact",
+    "title": {
+      "part1": "Numbers that",
+      "part2": "change the world"
+    },
+    "impacts": {
+      "trees": {
+        "label": "Trees planted",
+        "description": "As part of our fight for reforestation."
+      },
+      "lives": {
+        "label": "Lives impacted",
+        "description": "People helped through our socio-economic programs."
+      },
+      "projects": {
+        "label": "Completed projects",
+        "description": "Concrete actions successfully carried out on the ground."
+      },
+      "volunteers": {
+        "label": "Active volunteers",
+        "description": "A dedicated community across Côte d'Ivoire."
+      }
+    }
+  },
+  "volunteerSection": {
+    "badge": "Engage with us",
+    "title": {
+      "part1": "Your energy can",
+      "part2": "transform lives"
+    },
+    "description": "We are always looking for passionate people ready to use their talents for a noble cause. Whether you are a student, a professional, or a retiree, you have a vital role to play.",
+    "submitBtn": "Submit my application",
+    "imageAlt": "Group of enthusiastic volunteers",
+    "benefits": {
+      "benefit1": "Participate in concrete field missions",
+      "benefit2": "Develop new professional skills",
+      "benefit3": "Join a network of engaged citizens",
+      "benefit4": "Make a visible difference in Côte d'Ivoire"
+    }
+  },
+  "testimonialSection": {
+    "badge": "Testimonials",
+    "title": {
+      "part1": "The voice of those who",
+      "part2": "experience the change"
+    },
+    "testimonials": {
+      "1": {
+        "content": "Open Heart's approach is unique. They don't just give; they guide communities towards genuine autonomy. I've seen lives change in a matter of months.",
+        "author": "Aminata Diallo",
+        "role": "Field Volunteer"
+      },
+      "2": {
+        "content": "Thanks to the reforestation program, our village was able to restore a large part of its sacred forest. It's an invaluable legacy we are leaving to our children.",
+        "author": "Kouassi Jean-Marc",
+        "role": "Community Project Manager"
+      },
+      "3": {
+        "content": "Supporting Green Vision means investing in the future of Côte d'Ivoire. Their transparency and efficiency on the ground are exemplary. A trusted partner.",
+        "author": "Sarah Martin",
+        "role": "Donor and Partner"
+      },
+      "4": {
+        "content": "The impact of their awareness campaigns in schools is remarkable. Children are becoming true ambassadors of ecology at home.",
+        "author": "Mr. Traoré",
+        "role": "School Principal"
+      }
+    }
+  },
+  "team": {
+    "header": {
+      "badge": "OUR ORGANIZATION",
+      "titlePart1": "The",
+      "titleHighlight": "Open Heart",
+      "titlePart2": "& Green Vision Team",
+      "description": "An organized and dedicated structure to address the social and environmental challenges of Côte d'Ivoire."
+    },
+    "executiveBoard": {
+      "title": "Executive Board",
+      "martin": {
+        "role": "Founding President - General Supervisor",
+        "bio": "Visionary and pillar of the organization, he supervises all projects for a sustainable impact."
+      },
+      "jemima": {
+        "role": "Vice President",
+        "bio": "In charge of monitoring out-of-school girls and female students."
+      },
+      "rosine": {
+        "role": "Vice President",
+        "bio": "In charge of the fight against domestic violence and the socio-economic integration of women."
+      }
+    },
+    "administrativeBureau": {
+      "title": "Secretariat & Treasury",
+      "alberto": { "role": "General Secretary" },
+      "charles": { "role": "Deputy Secretary" },
+      "willy": { "role": "Treasurer & Coordinator of Projects for the Disabled" },
+      "felix": { "role": "Statutory Auditor" }
+    },
+    "council": {
+      "title": "Board of Directors",
+      "memberRole": "Board Member"
+    },
+    "banner": {
+      "titlePart1": "Join the",
+      "titleHighlight": "movement",
+      "description": "We are an open team. If you wish to use your skills for the benefit of humanity and nature, contact us.",
+      "btn": "Become a member"
+    }
+  },
+  "benevolats": {
+    "badge": "Engagement",
+    "title": {
+      "part1": "Become an actor",
+      "part2": "of",
+      "highlight": "change"
+    },
+    "description": "Whether you are an individual wishing to volunteer your time or a company wanting to invest in CSR, we build partnerships based on real impact.",
+    "sectors": {
+      "education": "Education & Health",
+      "environment": "Environment",
+      "logistics": "Logistics & Digital"
+    },
+    "form": {
+      "title": "Apply now",
+      "namePlaceholder": "FULL NAME",
+      "emailPlaceholder": "PROFESSIONAL EMAIL",
+      "typePlaceholder": "TYPE OF ENGAGEMENT",
+      "typeIndividual": "INDIVIDUAL VOLUNTEERING",
+      "typeCorporate": "CORPORATE PARTNERSHIP",
+      "submit": "Send my request"
+    }
+  },
+  "membres": {
+    "badge": "Community",
+    "title": {
+      "part1": "Members",
+      "highlight": "Area"
+    },
+    "card": {
+      "title": "Restricted Access",
+      "description": "This space is dedicated to active NGO members to access internal reports and collaboration tools.",
+      "loginBtn": "Log in",
+      "joinBtn": "Become an active member"
+    }
+  },
+  "evenements": {
+    "title": {
+      "part1": "Agenda of",
+      "highlight": "actions"
+    },
+    "registerBtn": "Register",
+    "events": {
+      "marcheVerte": {
+        "day": "22",
+        "month": "May 2026",
+        "category": "Ecology",
+        "title": "Abidjan Green Walk",
+        "location": "Plateau"
+      },
+      "galaCharite": {
+        "day": "10",
+        "month": "June 2026",
+        "category": "Donation",
+        "title": "Open Heart Charity Gala",
+        "location": "Hotel Ivoire"
+      }
+    }
+  },
+  "bienEtre": {
+    "hero": {
+      "badge": "Human Development",
+      "titlePart1": "Socio-Economic",
+      "titlePart2": "Well-being",
+      "description": "We believe that human dignity requires financial autonomy and access to fundamental rights. Our programs aim to break the cycle of poverty through concrete action.",
+      "imageAlt": "Social Welfare"
+    },
+    "initiatives": {
+      "title": "Our Strategic Axes",
+      "items": {
+        "women": {
+          "title": "Women's Empowerment",
+          "desc": "Micro-credit and entrepreneurship training for rural women's groups."
+        },
+        "education": {
+          "title": "Education & Literacy",
+          "desc": "Support for school infrastructure and evening classes for adults."
+        },
+        "youth": {
+          "title": "Youth Integration",
+          "desc": "Mentorship programs and internships in technical and digital trades."
+        },
+        "health": {
+          "title": "Community Health",
+          "desc": "Awareness campaigns and access to basic care in remote areas."
+        }
+      }
+    }
+  },
+  "ecologie": {
+    "hero": {
+      "badge": "Environment",
+      "titlePart1": "Climate",
+      "titlePart2": "Fight",
+      "subtitle": "So that the Côte d'Ivoire of tomorrow remains a land of forests and life.",
+      "imageAlt": "Nature"
+    },
+    "mission": {
+      "titlePart1": "Our mission for",
+      "titlePart2": "biodiversity",
+      "p1": "Climate change is no longer a distant threat; it is a daily reality for our farmers and coastal ecosystems.",
+      "p2": "Open Heart deploys natural regeneration and awareness projects to make every citizen a guardian of nature."
+    },
+    "goals": {
+      "reforestation": {
+        "title": "Massive Reforestation",
+        "desc": "Reforestation of classified forests and creation of community nurseries."
+      },
+      "energy": {
+        "title": "Clean Energy",
+        "desc": "Promotion of solar kits and improved stoves to reduce charcoal use."
+      },
+      "waste": {
+        "title": "Waste Management",
+        "desc": "Sorting and plastic waste recycling programs."
+      },
+      "water": {
+        "title": "Water Protection",
+        "desc": "Cleaning of lagoons and raising awareness about groundwater preservation."
+      }
+    }
+  },
+  "projets": {
+    "hero": {
+      "badge": "Our Impact",
+      "titlePart1": "Our projects",
+      "titlePart2": "on the ground",
+      "description": "Discover how we transform donations and the commitment of our volunteers into concrete results for local communities."
+    },
+    "cardBtn": "Details",
+    "featured": {
+      "project1": {
+        "title": "Cash donation to several facilities for disabled people",
+        "desc": "Official handover of financial donations and support to several facilities dedicated to the care of people with disabilities.",
+        "status": "Completed"
+      },
+      "project2": {
+        "title": "In-kind and cash donations to nursing women",
+        "desc": "Distribution of food, basic necessity kits, and financial support for several nursing mothers and their infants.",
+        "status": "Completed"
+      },
+      "project3": {
+        "title": "Digital Women Training",
+        "desc": "Digital literacy program for 100 young women to promote their socio-professional integration.",
+        "status": "New"
+      }
+    }
+  },
+  "galeries": {
+    "badge": "Immersion",
+    "titlePart1": "Photo",
+    "titlePart2": "Gallery",
+    "imageAlt": "Field action - Image"
+  },
+  "actualites": {
+    "badge": "News",
+    "titlePart1": "Our",
+    "titlePart2": "Logbook",
+    "readMore": "Read more",
+    "articles": {
+      "article1": {
+        "category": "Event",
+        "date": "April 17, 2026",
+        "author": "Open Heart Admin",
+        "title": "Launch of the climate awareness caravan",
+        "excerpt": "A national tour to educate youth on environmental protection issues."
+      },
+      "article2": {
+        "category": "Institutional",
+        "date": "April 10, 2026",
+        "author": "Management",
+        "title": "Strategic partnership with local authorities",
+        "excerpt": "A new alliance to strengthen access to drinking water in rural areas of Côte d'Ivoire."
+      },
+      "article3": {
+        "category": "Story",
+        "date": "April 05, 2026",
+        "author": "Social Team",
+        "title": "Testimonial: How microcredit changed my life",
+        "excerpt": "Awa shares her journey since obtaining a loan to launch her agricultural cooperative."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contact us",
+    "titlePart1": "Let's talk about",
+    "titlePart2": "your commitment",
+    "description": "Do you have any questions or want to become a partner? Our team is here to listen.",
+    "form": {
+      "namePlaceholder": "FULL NAME",
+      "emailPlaceholder": "EMAIL",
+      "messagePlaceholder": "YOUR MESSAGE",
+      "submitBtn": "Send message"
+    }
+  },
+  "don": {
+    "badge": "Your Support",
+    "titlePart1": "Every donation",
+    "titlePart2": "truly counts.",
+    "description": "Your generosity directly fuels our actions on the ground. From planting trees to empowering rural communities, you are the driver of change in Côte d'Ivoire.",
+    "features": {
+      "secureTitle": "100% Secure Donation",
+      "secureDesc": "Your payment information is encrypted and protected.",
+      "transparentTitle": "Total Transparency",
+      "transparentDesc": "85% of your donation goes directly to field projects."
+    },
+    "form": {
+      "once": "One-time Donation",
+      "monthly": "Monthly Donation",
+      "otherAmount": "Other amount (FCFA)",
+      "impact": {
+        "part1": "With",
+        "part2": ", you help plant approximately",
+        "part3": "trees."
+      },
+      "namePlaceholder": "FULL NAME",
+      "emailPlaceholder": "EMAIL ADDRESS",
+      "submitBtn": "Finalize my secure donation",
+      "paymentInfo": "Payment available via Orange Money, Wave, Moov, and Credit Card"
+    }
+  },
+  "footer": {
+    "description": "Committed to socio-economic well-being and the active fight against global warming. Together, let's build a sustainable future.",
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "about": "About Us",
+      "projects": "Our Projects",
+      "news": "News",
+      "contact": "Contact"
+    },
+    "actions": {
+      "title": "Our Actions",
+      "welfare": "Socio-economic Well-being",
+      "ecology": "Fight Against Global Warming",
+      "volunteer": "Become a Volunteer",
+      "events": "Upcoming Events"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "hq": "Headquarters",
+      "location": "Abidjan, Côte d'Ivoire"
+    },
+    "copyright": "Open Heart & Green Vision. All rights reserved.",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy"
+  }
+}

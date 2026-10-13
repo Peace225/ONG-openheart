@@ -1,0 +1,690 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos de nous",
+    "team": "Notre Team",
+    "volunteering": "Bénévolats & Partenariats",
+    "members": "Nos membres",
+    "events": "Événements",
+    "activities": "Activités",
+    "welfare": "Initiative pour le bien-être socio-économique",
+    "ecology": "Lutte contre le réchauffement climatique",
+    "projects": "Nos projets",
+    "galleries": "Galeries",
+    "news": "Actualités",
+    "contact": "Contact",
+    "donate": "FAIRE UN DON",
+    "engage": "S'engager maintenant"
+  },
+  "journal": {
+    "badge": "Actualités & Récits",
+    "title": {
+      "part1": "Notre Journal",
+      "part2": "de bord"
+    },
+    "viewAll": "Voir tous les articles",
+    "readArticle": "Lire l'article",
+    "close": "Fermer",
+    "articles": {
+      "article1": {
+        "category": "Solidarité",
+        "date": "15 Avril 2024",
+        "title": "Don en espèces à plusieurs structures pour personnes handicapées",
+        "excerpt": "Remise officielle de dons financiers et accompagnement de plusieurs structures dédiées à la prise en charge des personnes en situation de handicap.",
+        "content": "Dans le cadre de nos engagements en faveur de l'inclusion sociale et du soutien aux populations vulnérables, nous avons procédé à une remise officielle de fonds à trois centres d'accueil majeurs. Cette aide financière permettra de moderniser leurs équipements orthopédiques, d'assurer le renouvellement du matériel pédagogique et de financer les frais médicaux et d'assistance des résidents les plus démunis."
+      },
+      "article2": {
+        "category": "Solidarité",
+        "date": "02 Avril 2023",
+        "title": "Don en espèces et en nature à plusieurs mères nourricières",
+        "excerpt": "Distribution de vivres, kits de première nécessité et appui financier pour soutenir plusieurs mères nourricières et leurs nourrissons.",
+        "content": "Cette campagne solidaire a réuni bénévoles et professionnels de santé autour de mères célibataires et de familles en situation précaire. Plus de 120 kits composés de produits d'hygiène infantile, laits maternisés, couches, vivres de base et enveloppes d'aide directe ont été distribués."
+      },
+      "article3": {
+        "category": "Événement",
+        "date": "28 Mars 2026",
+        "title": "Retour sur notre grande marche pour le climat à Abidjan",
+        "excerpt": "Des centaines de citoyens ont marché à nos côtés pour sensibiliser les décideurs à l'urgence climatique urbaine.",
+        "content": "Une mobilisation historique s'est tenue dans les artères principales de la métropole. Étudiants, collectifs associatifs et familles ont défilé pacifiquement afin de porter un plaidoyer fort : accélération de la végétalisation urbaine, meilleure gestion du tri des déchets plastiques et protection des berges lagunaires."
+      }
+    }
+  },
+  "roadmapSection": {
+    "badge": "Feuille de route & Réalisations",
+    "title": {
+      "main": "Nos Grands Projets",
+      "highlight": "Court & Long terme"
+    },
+    "tabs": {
+      "all": "Tous",
+      "short": "Court terme",
+      "long": "Long terme"
+    },
+    "card": {
+      "readMore": "Lire les détails & Soutenir"
+    },
+    "banner": {
+      "title": "Contribuez à l'un de ces chantiers",
+      "description": "Partenariats institutionnels, apports de matériaux, compétences médicales ou dons directs : chaque soutien accélère notre calendrier de livraison.",
+      "partnerBtn": "Devenir partenaire",
+      "donateBtn": "Faire un don"
+    },
+    "modal": {
+      "closeAria": "Fermer la fenêtre",
+      "impact": "Impact visé :",
+      "achieved": "% réalisé",
+      "presentation": "Présentation du projet",
+      "close": "Fermer",
+      "partnerBtn": "Devenir partenaire",
+      "supportBtn": "Soutenir ce projet"
+    },
+    "projects": {
+      "project1": {
+        "category": "Éducation & Solidarité",
+        "title": "Distribution de kits scolaires aux familles démunies",
+        "deadline": "Rentrée 2026 - 2027",
+        "status": "Collecte & Logistique",
+        "target": "1 500 élèves équipés",
+        "description": "Dotation complète en sacs, cahiers, stylos et manuels pédagogiques pour soulager la charge financière des parents vulnérables et garantir la scolarisation de chaque enfant."
+      },
+      "project2": {
+        "category": "Santé Publique",
+        "title": "Campagnes de dépistage et prévention (Diabète, Hypertension, Cancer, etc.)",
+        "deadline": "Campagnes en cours (2026 - 2027)",
+        "status": "Caravanes médicales actives",
+        "target": "+10 000 personnes dépistées",
+        "description": "Déploiement de caravanes médicales mobiles sillonnant communes et villages ivoiriens pour offrir bilans de glycémie, prise de tension, dépistages précoces et conseils hygiéno-diététiques gratuits."
+      },
+      "project3": {
+        "category": "Environnement & Climat",
+        "title": "Campagne de reboisement de plusieurs hectares",
+        "deadline": "T2 2027",
+        "status": "Pépinière & Préparation des sols",
+        "target": "50 hectares reboisés",
+        "description": "Restauration des écosystèmes dégradés par la mise en terre communautaire d’arbres d’ombrage, d’essences forestières locales et d’arbres fruitiers, combinée à des ateliers de protection de la biodiversité."
+      },
+      "project4": {
+        "category": "Cadre de Vie & Famille",
+        "title": "Aménagement d’espaces de jeux et de loisirs pour enfants et adultes",
+        "deadline": "Fin 2027",
+        "status": "Planification & Sécurisation",
+        "target": "3 espaces aménagés",
+        "description": "Création d’aires de détente sécurisées comprenant modules ludiques et motricité pour les tout-petits, bancs ombragés et zones de socialisation intergénérationnelle en plein air."
+      },
+      "project5": {
+        "category": "Infrastructure Éducative",
+        "title": "Construction d’une école primaire de 6 classes",
+        "deadline": "Horizon 2027 - 2028",
+        "status": "Acquisition foncière & Plans",
+        "target": "300 enfants scolarisés/an",
+        "description": "Édification d’un établissement scolaire éco-conçu de 6 salles de classe, avec bloc administratif, latrines hygiéniques séparées et cantine alimentée par panneaux solaires photovoltaïques."
+      },
+      "project6": {
+        "category": "Santé Rurale",
+        "title": "Construction de centres de santé en zone rurale",
+        "deadline": "Horizon 2028",
+        "status": "Études techniques & Partenariats",
+        "target": "15 000 villageois couverts",
+        "description": "Création de dispensaires et maternités rurales de proximité afin d’assurer la prise en charge des urgences obstétricales, la vaccination des nourrissons et réduire les temps d’évacuation médicale."
+      },
+      "project7": {
+        "category": "Hydraulique Villageoise",
+        "title": "Construction d’un château d’eau potable",
+        "deadline": "Horizon 2028 - 2029",
+        "status": "Étude hydrogéologique",
+        "target": "5 000 habitants alimentés",
+        "description": "Forage d’eau profonde couplé à un réservoir surélevé et un réseau de bornes fontaines publiques solaires, pour éradiquer les maladies d’origine hydrique et faciliter le quotidien des femmes."
+      },
+      "project8": {
+        "category": "Sport & Jeunesse",
+        "title": "Infrastructures sportives dans des villages péri-urbains",
+        "deadline": "Horizon 2029",
+        "status": "Identification des sites",
+        "target": "2 complexes omnisports",
+        "description": "Aménagement de plateaux multisports (football à 7, basketball, handball) équipés de vestiaires pour encourager la pratique sportive, renforcer la cohésion sociale et détecter les jeunes talents."
+      },
+      "project9": {
+        "category": "Inclusion Numérique",
+        "title": "Centre numérique communautaire multifonction",
+        "deadline": "Vision 2029 - 2030",
+        "status": "Conception technique & Équipements",
+        "target": "+2 500 jeunes formés/an",
+        "description": "Tiers-lieu technologique comprenant un parc d’ordinateurs connectés par fibre, un espace de coworking et des formations certifiantes au codage, à la bureautique et aux démarches administratives en ligne."
+      }
+    }
+  },
+  "home": {
+    "cta": {
+      "titlePart1": "Il n'y a pas de plan B pour la planète.",
+      "titlePart2": "Engagez-vous aujourd'hui.",
+      "description": "Que ce soit par votre temps, votre expertise ou une contribution financière, votre soutien est le moteur de notre action.",
+      "volunteerBtn": "Devenir Bénévole",
+      "donateBtn": "Faire un don"
+    }
+  },
+  "hero": {
+    "slides": {
+      "slide1": {
+        "title": "Agir pour notre planète",
+        "subtitle": "Rejoignez notre lutte active contre le réchauffement climatique et protégeons notre écosystème.",
+        "cta1": "Nos Actions",
+        "cta2": "Faire un don"
+      },
+      "slide2": {
+        "title": "Bien-être socio-économique",
+        "subtitle": "Ensemble, bâtissons un avenir durable et solidaire pour les communautés les plus vulnérables.",
+        "cta1": "Découvrir les projets",
+        "cta2": "S'engager"
+      },
+      "slide3": {
+        "title": "Devenez le changement",
+        "subtitle": "Chaque geste compte. Engagez-vous en tant que bénévole et donnez vie à notre vision verte.",
+        "cta1": "Rejoindre l'équipe",
+        "cta2": "Nous contacter"
+      },
+      "slide4": {
+        "title": "Difficile accès à l'eau potable",
+        "subtitle": "L'eau potable est un besoin vital. Mobilisons-nous pour installer des forages et garantir une eau saine à ceux qui en manquent.",
+        "cta1": "Projets Eau",
+        "cta2": "Faire un don"
+      },
+      "slide5": {
+        "title": "La souffrance des femmes en milieu rural",
+        "subtitle": "Face aux corvées, à l’isolement et à la précarité, agissons pour soutenir et alléger le quotidien des femmes de nos campagnes.",
+        "cta1": "Soutenir les Femmes",
+        "cta2": "S'engager"
+      },
+      "slide6": {
+        "title": "La souffrance des femmes en milieu rural",
+        "subtitle": "Face aux lourdes corvées, à l’isolement et à la précarité, agissons pour alléger et transformer le quotidien des femmes de nos campagnes.",
+        "cta1": "Soutenir les Femmes",
+        "cta2": "S'engager"
+      },
+      "slide7": {
+        "title": "La souffrance des femmes en milieu rural",
+        "subtitle": "Face aux lourdes corvées, à l’isolement et à la précarité, agissons pour alléger et transformer le quotidien des femmes de nos campagnes.",
+        "cta1": "Aide d'Urgence",
+        "cta2": "Soutenir"
+      },
+      "slide8": {
+        "title": "La souffrance des femmes en milieu rural",
+        "subtitle": "Face aux lourdes corvées, à l’isolement et à la précarité, agissons pour alléger et transformer le quotidien des femmes de nos campagnes.",
+        "cta1": "Planter un arbre",
+        "cta2": "Rejoindre"
+      },
+      "slide9": {
+        "title": "Dons en nature et en espèces aux femmes nourrices",
+        "subtitle": "Apportons une aide matérielle, alimentaire et financière directe pour soutenir la santé des jeunes mamans et de leurs nouveau-nés.",
+        "cta1": "Faire un don",
+        "cta2": "Nos Actions"
+      },
+      "slide10": {
+        "title": "Alerte à la pauvreté",
+        "subtitle": "Face à l'extrême précarité qui frappe tant de familles, unissons nos forces pour apporter une aide d'urgence et redonner espoir.",
+        "cta1": "Agir maintenant",
+        "cta2": "Faire un don"
+      },
+      "slide11": {
+        "title": "Modes traditionnels d'accès à la nourriture",
+        "subtitle": "Préservons les pratiques vivrières ancestrales et soutenons les méthodes de subsistance locales face aux défis alimentaires.",
+        "cta1": "Découvrir",
+        "cta2": "Nous soutenir"
+      },
+      "slide12": {
+        "title": "Modes traditionnels d'accès à la nourriture",
+        "subtitle": "Grâce à votre engagement et vos dons, chaque action transforme durablement le quotidien.",
+        "cta1": "Nos Réalisations",
+        "cta2": "Faire un don"
+      },
+      "slide13": {
+        "title": "Dons en espèces aux structures pour personnes handicapées",
+        "subtitle": "Soutenons financièrement les centres spécialisés pour améliorer la prise en charge, l'accessibilité et la dignité des personnes en situation de handicap.",
+        "cta1": "Faire un don",
+        "cta2": "Nos Actions"
+      },
+      "slide14": {
+        "title": "Vie précaire et besoin d'aide",
+        "subtitle": "Face aux conditions de vie difficiles et au dénuement extrême, apportons un soutien indispensable et redonnons de la dignité à ceux qui en ont le plus besoin.",
+        "cta1": "Agir maintenant",
+        "cta2": "Faire un don"
+      },
+      "slide15": {
+        "title": "Lutte contre la pollution plastique",
+        "subtitle": "Nettoyons nos espaces de vie, éliminons les déchets plastiques et sensibilisons les communautés pour préserver notre environnement.",
+        "cta1": "Nos Collectes",
+        "cta2": "Devenir Bénévole"
+      }
+    }
+  },
+  "singularity": {
+    "badge": "Notre Singularité",
+    "title": {
+      "part1": "Une approche ",
+      "highlight": "humaine et globale",
+      "part2": " pour un impact réel"
+    },
+    "learnMore": "En savoir plus",
+    "features": {
+      "multisectorial": {
+        "title": "Une action multisectorielle",
+        "description": "Nous intervenons dans de nombreux domaines essentiels : éducation, santé, droits humains, accès à l’eau potable, sécurité alimentaire, droits des femmes, droits des enfants, et soutien aux personnes vulnérables."
+      },
+      "environmental": {
+        "title": "Un engagement environnemental",
+        "description": "Notre lutte contre le changement climatique s’articule autour de la conservation des forêts, de la préservation de la biodiversité et de la promotion d’écosystèmes durables en Côte d'Ivoire."
+      },
+      "concrete": {
+        "title": "Des actions de terrain concrètes",
+        "description": "Nous travaillons main dans la main avec les citoyens, les gouvernements, les ONG partenaires et les entreprises pour construire ensemble des solutions durables et adaptées aux réalités locales."
+      }
+    }
+  },
+  "aboutSection": {
+    "badge": "QUI SOMMES-NOUS ?",
+    "title": {
+      "part1": "OPEN HEART & GREEN VISION,",
+      "highlight": "un moteur de changement",
+      "part2": "en Côte d'Ivoire"
+    },
+    "description1": "Basée à Abidjan, OPEN HEART & GREEN VISION est une organisation non gouvernementale qui agit pour le bien-être socio-économique, culturel et environnemental des populations ivoiriennes.",
+    "description2": "Avec une approche inclusive, nous mettons en œuvre des initiatives concrètes pour garantir l’accès aux droits fondamentaux, promouvoir la justice sociale et lutter activement contre le réchauffement climatique.",
+    "stats": {
+      "volunteers": "Bénévoles engagés",
+      "beneficiaries": "Bénéficiaires",
+      "campaigns": "Campagnes",
+      "forests": "Forêts protégées"
+    },
+    "points": {
+      "point1": "Défense des droits humains et des personnes vulnérables",
+      "point2": "Accès à l'éducation, à la santé et à l'eau potable",
+      "point3": "Préservation de la biodiversité et des forêts",
+      "point4": "Promotion, valorisation et préservation de l'art, de la culture et des valeurs ancestrales"
+    },
+    "button": "Rencontrer notre équipe"
+  },
+  "actionAreas": {
+    "badge": "Domaines d'intervention",
+    "title": {
+      "part1": "Nos actions pour",
+      "highlight": "le changement."
+    },
+    "subtitle": "Nous déployons des solutions innovantes et durables pour répondre aux défis majeurs de notre époque.",
+    "learnMore": "En savoir plus",
+    "actions": {
+      "welfare": {
+        "title": "Initiatives pour le bien-être socio-économique",
+        "description": "Favoriser l'éducation, la santé et l'autonomisation des femmes et des enfants pour un développement durable et équitable.",
+        "stats": "15+ Projets actifs"
+      },
+      "ecology": {
+        "title": "Lutte contre le réchauffement climatique",
+        "description": "Préserver la biodiversité et nos forêts tout en sensibilisant les populations, pour bâtir une Côte d'Ivoire plus verte.",
+        "stats": "50k Arbres plantés"
+      }
+    },
+    "reassurance": {
+      "textPart1": "Plus de",
+      "highlight": "250 bénévoles",
+      "textPart2": "déjà engagés à nos côtés"
+    },
+    "joinUsBtn": "Nous rejoindre"
+  },
+  "impactSection": {
+    "badge": "Notre Impact",
+    "title": {
+      "part1": "Des chiffres qui",
+      "part2": "changent le monde"
+    },
+    "impacts": {
+      "trees": {
+        "label": "Arbres plantés",
+        "description": "Dans le cadre de notre lutte pour la reforestation."
+      },
+      "lives": {
+        "label": "Vies impactées",
+        "description": "Personnes aidées via nos programmes socio-économiques."
+      },
+      "projects": {
+        "label": "Projets réalisés",
+        "description": "Des actions concrètes menées à terme sur le terrain."
+      },
+      "volunteers": {
+        "label": "Bénévoles actifs",
+        "description": "Une communauté dévouée à travers la Côte d'Ivoire."
+      }
+    }
+  },
+  "volunteerSection": {
+    "badge": "S'engager avec nous",
+    "title": {
+      "part1": "Votre énergie peut",
+      "part2": "transformer des vies"
+    },
+    "description": "Nous sommes toujours à la recherche de personnes passionnées, prêtes à mettre leurs talents au service d'une cause noble. Que vous soyez étudiant, professionnel ou retraité, vous avez un rôle essentiel à jouer.",
+    "submitBtn": "Soumettre ma candidature",
+    "imageAlt": "Groupe de bénévoles enthousiastes",
+    "benefits": {
+      "benefit1": "Participez à des missions concrètes sur le terrain",
+      "benefit2": "Développez de nouvelles compétences professionnelles",
+      "benefit3": "Intégrez un réseau de citoyens engagés",
+      "benefit4": "Faites une différence visible en Côte d'Ivoire"
+    }
+  },
+  "testimonialSection": {
+    "badge": "Témoignages",
+    "title": {
+      "part1": "La voix de ceux qui",
+      "part2": "vivent le changement"
+    },
+    "testimonials": {
+      "1": {
+        "content": "L'approche d'Open Heart est unique. Ils ne se contentent pas de donner, ils accompagnent les communautés vers une véritable autonomie. J'ai vu des vies changer en quelques mois.",
+        "author": "Aminata Diallo",
+        "role": "Bénévole terrain"
+      },
+      "2": {
+        "content": "Grâce au programme de reboisement, notre village a pu restaurer une grande partie de sa forêt sacrée. C'est un héritage inestimable que nous laissons à nos enfants.",
+        "author": "Kouassi Jean-Marc",
+        "role": "Chef de projet communautaire"
+      },
+      "3": {
+        "content": "Soutenir Green Vision, c'est investir dans l'avenir de la Côte d'Ivoire. Leur transparence et leur efficacité sur le terrain sont exemplaires. Un partenaire de confiance.",
+        "author": "Sarah Martin",
+        "role": "Donatrice et Partenaire"
+      },
+      "4": {
+        "content": "L'impact de leurs campagnes de sensibilisation dans les écoles est remarquable. Les enfants deviennent de véritables ambassadeurs de l'écologie à la maison.",
+        "author": "M. Traoré",
+        "role": "Directeur d'école"
+      }
+    }
+  },
+  "team": {
+    "header": {
+      "badge": "NOTRE ORGANISATION",
+      "titlePart1": "L'Équipe",
+      "titleHighlight": "Open Heart",
+      "titlePart2": "& Green Vision",
+      "description": "Une structure organisée et dévouée pour répondre aux défis sociaux et environnementaux de la Côte d'Ivoire."
+    },
+    "executiveBoard": {
+      "title": "Haute Direction",
+      "martin": {
+        "role": "Président Fondateur - Superviseur Général",
+        "bio": "Visionnaire et pilier de l'organisation, il supervise l'ensemble des projets pour un impact durable."
+      },
+      "jemima": {
+        "role": "Vice Présidente",
+        "bio": "Chargée du suivi des jeunes filles déscolarisées, élèves et étudiantes."
+      },
+      "rosine": {
+        "role": "Vice Présidente",
+        "bio": "Chargée de la lutte contre les violences conjugales et de l'insertion socio-économique des femmes."
+      }
+    },
+    "administrativeBureau": {
+      "title": "Secrétariat & Trésorerie",
+      "alberto": { "role": "Secrétaire Général" },
+      "charles": { "role": "D. Secrétaire Adjoint" },
+      "willy": { "role": "Trésorier & Coordonnateur Projets Handicapés" },
+      "felix": { "role": "Commissaire aux comptes" }
+    },
+    "council": {
+      "title": "Conseil d'Administration",
+      "memberRole": "Membre CA"
+    },
+    "banner": {
+      "titlePart1": "Rejoignez le",
+      "titleHighlight": "mouvement",
+      "description": "Nous sommes une équipe ouverte. Si vous souhaitez mettre vos compétences au service de l'humanité et de la nature, contactez-nous.",
+      "btn": "Devenir membre"
+    }
+  },
+  "benevolats": {
+    "badge": "Engagement",
+    "title": {
+      "part1": "Devenez un acteur",
+      "part2": "du",
+      "highlight": "changement"
+    },
+    "description": "Que vous soyez un individu souhaitant donner de son temps ou une entreprise désireuse d'investir dans la RSE, nous construisons des partenariats basés sur l'impact réel.",
+    "sectors": {
+      "education": "Éducation & Santé",
+      "environment": "Environnement",
+      "logistics": "Logistique & Digital"
+    },
+    "form": {
+      "title": "Postuler maintenant",
+      "namePlaceholder": "NOM COMPLET",
+      "emailPlaceholder": "EMAIL PROFESSIONNEL",
+      "typePlaceholder": "TYPE D'ENGAGEMENT",
+      "typeIndividual": "BÉNÉVOLAT INDIVIDUEL",
+      "typeCorporate": "PARTENARIAT ENTREPRISE",
+      "submit": "Envoyer ma demande"
+    }
+  },
+  "membres": {
+    "badge": "Communauté",
+    "title": {
+      "part1": "Espace",
+      "highlight": "Membres"
+    },
+    "card": {
+      "title": "Accès réservé",
+      "description": "Cet espace est dédié aux membres actifs de l'ONG pour accéder aux rapports internes et aux outils de collaboration.",
+      "loginBtn": "Se connecter",
+      "joinBtn": "Devenir membre actif"
+    }
+  },
+  "evenements": {
+    "title": {
+      "part1": "Agenda des",
+      "highlight": "actions"
+    },
+    "registerBtn": "S'inscrire",
+    "events": {
+      "marcheVerte": {
+        "day": "22",
+        "month": "Mai 2026",
+        "category": "Écologie",
+        "title": "Marche Verte Abidjan",
+        "location": "Plateau"
+      },
+      "galaCharite": {
+        "day": "10",
+        "month": "Juin 2026",
+        "category": "Don",
+        "title": "Gala de Charité Open Heart",
+        "location": "Hôtel Ivoire"
+      }
+    }
+  },
+  "bienEtre": {
+    "hero": {
+      "badge": "Développement Humain",
+      "titlePart1": "Bien-être",
+      "titlePart2": "Socio-Économique",
+      "description": "Nous croyons que la dignité humaine passe par l'autonomie financière et l'accès aux droits fondamentaux. Nos programmes visent à briser le cycle de la pauvreté par l'action concrète.",
+      "imageAlt": "Bien-être social"
+    },
+    "initiatives": {
+      "title": "Nos axes stratégiques",
+      "items": {
+        "women": {
+          "title": "Autonomisation des Femmes",
+          "desc": "Micro-crédits et formations à l'entrepreneuriat pour les groupements de femmes rurales."
+        },
+        "education": {
+          "title": "Éducation & Alphabétisation",
+          "desc": "Soutien aux infrastructures scolaires et cours du soir pour adultes."
+        },
+        "youth": {
+          "title": "Insertion des Jeunes",
+          "desc": "Programmes de mentorat et stages dans les métiers techniques et numériques."
+        },
+        "health": {
+          "title": "Santé Communautaire",
+          "desc": "Campagnes de sensibilisation et accès aux soins de base en zone reculée."
+        }
+      }
+    }
+  },
+  "ecologie": {
+    "hero": {
+      "badge": "Environnement",
+      "titlePart1": "Lutte",
+      "titlePart2": "Climatique",
+      "subtitle": "Pour que la Côte d'Ivoire de demain reste une terre de forêts et de vie.",
+      "imageAlt": "Nature"
+    },
+    "mission": {
+      "titlePart1": "Notre mission pour",
+      "titlePart2": "la biodiversité",
+      "p1": "Le dérèglement climatique n'est plus une menace lointaine, c'est une réalité quotidienne pour nos agriculteurs et nos écosystèmes côtiers.",
+      "p2": "Open Heart déploie des projets de régénération naturelle et de sensibilisation pour faire de chaque citoyen un gardien de la nature."
+    },
+    "goals": {
+      "reforestation": {
+        "title": "Reforestation Massive",
+        "desc": "Reboisement des forêts classées et création de pépinières communautaires."
+      },
+      "energy": {
+        "title": "Énergies Propres",
+        "desc": "Promotion des kits solaires et foyers améliorés pour réduire le charbon de bois."
+      },
+      "waste": {
+        "title": "Gestion des Déchets",
+        "desc": "Programmes de tri sélectif et de valorisation des déchets plastiques."
+      },
+      "water": {
+        "title": "Protection des Eaux",
+        "desc": "Nettoyage des lagunes et sensibilisation à la préservation des nappes phréatiques."
+      }
+    }
+  },
+  "projets": {
+    "hero": {
+      "badge": "Notre Impact",
+      "titlePart1": "Nos projets",
+      "titlePart2": "sur le terrain",
+      "description": "Découvrez comment nous transformons les dons et l'engagement de nos bénévoles en résultats concrets pour les communautés locales."
+    },
+    "cardBtn": "Détails",
+    "featured": {
+      "project1": {
+        "title": "Don en espèces à plusieurs structures pour personnes handicapées",
+        "desc": "Remise officielle de dons financiers et accompagnement de plusieurs structures dédiées à la prise en charge des personnes en situation de handicap.",
+        "status": "Terminé"
+      },
+      "project2": {
+        "title": "Don en espèces et en nature à plusieurs mères nourricières",
+        "desc": "Distribution de vivres, kits de première nécessité et appui financier pour soutenir plusieurs mères nourricières et leurs nourrissons.",
+        "status": "Terminé"
+      },
+      "project3": {
+        "title": "Formation Digital Women",
+        "desc": "Programme d'initiation au numérique pour 100 jeunes femmes afin de favoriser leur insertion socio-professionnelle.",
+        "status": "Nouveau"
+      }
+    }
+  },
+  "galeries": {
+    "badge": "Immersion",
+    "titlePart1": "Galerie",
+    "titlePart2": "Photos",
+    "imageAlt": "Action sur le terrain - Image"
+  },
+  "actualites": {
+    "badge": "Actualités",
+    "titlePart1": "Notre Journal",
+    "titlePart2": "de bord",
+    "readMore": "Lire la suite",
+    "articles": {
+      "article1": {
+        "category": "Événement",
+        "date": "17 Avril 2026",
+        "author": "Admin Open Heart",
+        "title": "Lancement de la caravane de sensibilisation climatique",
+        "excerpt": "Une tournée nationale pour éduquer les jeunes aux enjeux de la protection de l'environnement."
+      },
+      "article2": {
+        "category": "Institutionnel",
+        "date": "10 Avril 2026",
+        "author": "Direction",
+        "title": "Partenariat stratégique avec les autorités locales",
+        "excerpt": "Une nouvelle alliance pour renforcer l'accès à l'eau potable dans les zones rurales de Côte d'Ivoire."
+      },
+      "article3": {
+        "category": "Récit",
+        "date": "05 Avril 2026",
+        "author": "Social Team",
+        "title": "Témoignage : Comment le micro-crédit a changé ma vie",
+        "excerpt": "Awa raconte son parcours depuis l'obtention de son prêt pour lancer sa coopérative agricole."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "titlePart1": "Parlons de",
+    "titlePart2": "votre engagement",
+    "description": "Vous avez des questions ou souhaitez devenir partenaire ? Notre équipe est à votre écoute.",
+    "form": {
+      "namePlaceholder": "NOM COMPLET",
+      "emailPlaceholder": "EMAIL",
+      "messagePlaceholder": "VOTRE MESSAGE",
+      "submitBtn": "Envoyer le message"
+    }
+  },
+  "don": {
+    "badge": "Votre Soutien",
+    "titlePart1": "Chaque don",
+    "titlePart2": "compte vraiment.",
+    "description": "Votre générosité alimente directement nos actions sur le terrain. De la plantation d'arbres à l'autonomisation des communautés rurales, vous êtes le moteur du changement en Côte d'Ivoire.",
+    "features": {
+      "secureTitle": "Don 100% Sécurisé",
+      "secureDesc": "Vos informations de paiement sont cryptées et protégées.",
+      "transparentTitle": "Transparence Totale",
+      "transparentDesc": "85% de votre don va directement aux projets de terrain."
+    },
+    "form": {
+      "once": "Don Ponctuel",
+      "monthly": "Don Mensuel",
+      "otherAmount": "Autre montant (FCFA)",
+      "impact": {
+        "part1": "Avec",
+        "part2": ", vous permettez de planter environ",
+        "part3": "arbres."
+      },
+      "namePlaceholder": "NOM COMPLET",
+      "emailPlaceholder": "ADRESSE EMAIL",
+      "submitBtn": "Finaliser mon don sécurisé",
+      "paymentInfo": "Paiement disponible via Orange Money, Wave, Moov et Carte Bancaire"
+    }
+  },
+  "footer": {
+    "description": "Engagés pour le bien-être socio-économique et la lutte active contre le réchauffement climatique. Ensemble, bâtissons un avenir durable.",
+    "navigation": {
+      "title": "Navigation",
+      "home": "Accueil",
+      "about": "A propos de nous",
+      "projects": "Nos projets",
+      "news": "Actualités",
+      "contact": "Contact"
+    },
+    "actions": {
+      "title": "Nos Actions",
+      "welfare": "Bien-être socio-économique",
+      "ecology": "Lutte contre le réchauffement climatique",
+      "volunteer": "Devenir Bénévole",
+      "events": "Événements à venir"
+    },
+    "contact": {
+      "title": "Nous Contacter",
+      "hq": "Siège Social",
+      "location": "Abidjan, Côte d'Ivoire"
+    },
+    "copyright": "Open Heart & Green Vision. Tous droits réservés.",
+    "legal": "Mentions Légales",
+    "privacy": "Confidentialité"
+  }
+}

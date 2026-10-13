@@ -1,5 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 export default function Galeries() {
-  // On utilise des chemins relatifs pointant vers le dossier public/images/
+  const { t } = useTranslation();
+
   const images = [
     "/images/galerie-1.jpeg",
     "/images/galerie-2.jpeg",
@@ -21,10 +24,10 @@ export default function Galeries() {
     <div className="pt-32 pb-24">
       <div className="max-w-[1440px] mx-auto px-8 text-center mb-16">
         <span className="text-brand-green font-bold tracking-[0.3em] uppercase text-sm mb-4 block">
-          Immersion
+          {t('galeries.badge')}
         </span>
         <h1 className="text-6xl font-black text-brand-dark uppercase tracking-tighter">
-          Galerie <span className="text-brand-green">Photos</span>
+          {t('galeries.titlePart1')} <span className="text-brand-green">{t('galeries.titlePart2')}</span>
         </h1>
       </div>
       
@@ -33,7 +36,7 @@ export default function Galeries() {
           <img 
             key={i} 
             src={img} 
-            alt={`Action sur le terrain - Image ${i + 1}`} 
+            alt={`${t('galeries.imageAlt')} ${i + 1}`} 
             className="w-full rounded-2xl hover:scale-[1.02] transition-transform duration-500 shadow-xl" 
           />
         ))}
